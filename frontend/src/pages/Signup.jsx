@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5000/api/users/signup", {
+    const response = await fetch("https://to-do-list-an7h.onrender.com/api/users/signup", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
